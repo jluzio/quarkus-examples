@@ -1,4 +1,6 @@
+# https://quarkus.io/
 # https://quarkus.io/guides/logging
+# https://quarkus.io/guides/config-yaml
 quarkus:
   log:
     # default: INFO
