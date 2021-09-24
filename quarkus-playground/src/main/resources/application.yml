@@ -1,0 +1,11 @@
+# https://quarkus.io/guides/logging
+quarkus:
+  log:
+    # default: INFO
+    level: INFO
+    # default: DEBUG
+    min-level: TRACE
+    category:
+      "com.example":
+        level: DEBUG
+# as JVM Option: -Dquarkus.log.category.\"com.example\".level=TRACE
